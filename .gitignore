@@ -1,7 +1,27 @@
-# Python
+# Виртуальное окружение
+venv/
+.env
+
+# Файл базы данных SQLite
+booking.db
+
+# Python cache
 __pycache__/
 *.py[cod]
-venv/
 
-# DB
-booking.db
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Pytest
+.pytest_cache/
+
+# IDE / редакторы
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Системные файлы macOS/Windows
+.DS_Store
+Thumbs.db
