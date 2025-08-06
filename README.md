@@ -105,11 +105,6 @@ python -m booking book  --room 2 --start "..." --end "..." --user "..." --email 
 pytest -q
 ```
 
-## Форматирование и линтинг
-
-* Автоформатирование: `black .`
-* Статический анализ: `flake8 .`
-
 ## .gitignore
 
 ```
